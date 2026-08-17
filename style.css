@@ -1,5 +1,5 @@
 body {
-  font-family: "Segoe UI", Roboto, sans-serif;
+  font-family: "GT Super", Garamond, serif;
   margin: 0;
   background: #f4f7fb;
   color: #253238;
@@ -20,19 +20,31 @@ section {
   border-radius: 12px;
   padding: 24px;
   margin-bottom: 24px;
-  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+  box-shadow: 10px 10px rgba(15, 23, 42, 0.08);
 }
-section h2 {
+h2 {
   margin-top: 0;
   color: #04AA6D;
 }
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 24px;
+}
+section.item {
+  box-shadow: none;
+  border: 5px solid rgba(15, 23, 42, 0.08);
+}
 h1 {
-    font-size: 50px;
+  font-size: 50px;
 }
 a {
-    color: #058457;
+  color: #058457;
 }
 footer {
+  background: linear-gradient(120deg, #04AA6D, #058457);
   padding: 24px;
   font-size: 0.9rem;
+  color: #f4f7fb;
+  font-weight: bold;
 }
